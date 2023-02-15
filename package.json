@@ -1,0 +1,12 @@
+{
+    "name": "mirrors-commitlint--azure-pipelines-cli",
+    "version": "1.0.0",
+    "repository": "https://github.com/skycaptain/mirrors-commitlint-azure-pipelines-cli",
+    "private": true,
+    "dependencies": {
+        "commitlint-azure-pipelines-cli": "1.0.5"
+    },
+    "bin": {
+        "commitlint-azure-pipelines": "./node_modules/commitlint-azure-pipelines-cli/bin/run"
+    }
+}
